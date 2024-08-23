@@ -1,0 +1,25 @@
+{
+  "name": "salam-programming-language",
+  "displayName": "Salam Programming Language",
+  "description": "Salam is a new programming language for students and children. Everyone can learn programming and write code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "salam",
+      "aliases": ["salam", "salam"],
+      "extensions": [".salam"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "salam",
+      "scopeName": "",
+      "path": "./syntaxes/salam.tmLanguage.json"
+    }]
+  }
+}

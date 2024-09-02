@@ -1,4 +1,4 @@
-# Salam Programming Language VSCode Extention
+# Salam Programming Language VSCode Extension
 
 This is the README for extension "salam-programming-language". After writing up a brief description, we recommend including the following sections.
 
